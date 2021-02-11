@@ -1,0 +1,38 @@
+.books {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.item {
+    flex: 1;
+    /*margin-right: 15px;*/
+    margin: 20px 7px;
+    max-width: 40%;
+    text-align: center;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.164);
+   /*     display: flex;
+        flex-direction: column;
+        align-items: center;*/
+}
+.item:hover {
+    transform: scale(1.1);
+}
+.item div i {
+    color: #fdd41e;
+}
+.books h5 {
+    color: #BC222E;
+    font-weight: 600;
+    font-size: 18px;
+    padding-bottom:0;
+}
+.GRILLE{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+@media only screen and (min-width: 280px) and (max-width: 599px) {
+    .item {
+        flex: 50%;}
+}

@@ -1,0 +1,165 @@
+.Sec1 h1{
+    color: #BC222E;
+    font-size:110px;
+    font-weight:800;
+    text-align: center;
+    line-height: 115px;
+}
+.Sec1 p{
+  color: #141012;
+  font-size:21px;
+  width:78%;
+  text-align: center;
+  line-height: 25px;
+  font-weight: 400;
+  margin-top: 45px;
+}
+.Sec1{
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 110px;
+  margin-bottom:110px;
+}
+.Sec2{
+    background-color: #F1F1F1;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Sec2 div{
+    display: flex;
+    align-items: center;
+    margin: 10px 20px;
+    margin-bottom: 130px;
+}
+
+
+.Sec2 div img{
+    margin-right:50px;
+    width: 50%;
+
+}
+.Sec2 h2,.Sec4 h2{
+    color: #BC222E; 
+    font-size:50px;
+    font-weight:700;
+    text-align: center;
+    line-height: 53px;
+    margin-top: 110px;
+    margin-bottom: 20px;
+
+}
+.Sec4 h2{
+
+    margin-bottom: 10px;
+
+}
+.Sec2 p{
+    color: #141012;
+    width: 50%;
+    font-size:21px;
+    font-weight: 400;
+    line-height: 25px;
+
+}
+.Sec3 p{
+    color: #141012;
+    font-size:21px;
+    width:50%;
+    font-weight: 400;
+    line-height: 25px;
+
+}
+.Sec3{
+    display: flex;
+    align-items: center;
+    margin-top: 130px;
+    margin-bottom:130px;
+}
+.Sec3 img{
+    margin-left:50px;
+    width: 50%;
+}
+
+.Sec4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Sec4 span{
+    color: black;
+}
+.iconContainer {
+    display: flex;
+    margin-top: 40px;
+}
+.iconn {
+    display: flex;
+    justify-content: center;
+}
+.iconn img{
+    margin-right: 10px;
+    width: 8%;
+    margin-top: -16px;
+}
+.iconn h4{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.mapps {
+    margin-top: 50px;
+}
+
+
+@media only screen and (max-width: 724px) {
+    .Sec1 h1 {
+        font-size: 50px;
+        line-height: 52px;
+    }
+    .Sec2 div img {
+        margin-right: 0;
+    }
+    .Sec2 div{
+        margin-bottom: 90px;
+    }
+    .Sec4 h2{
+        margin-top: 0px;
+    }
+    .Sec3 img {
+        margin-left: 0;
+    }
+    .resp {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+    .Sec3{
+        margin-top: 90px;
+        margin-bottom:90px;
+    }
+
+    .Sec2 div img,.Sec3 img,.Sec2 p, .Sec3 p{
+        padding: 20px;
+        min-width: 100%;
+        text-align: center;
+        font-size: 18px;
+      }
+
+      .Sec3 {
+          flex-direction: column-reverse;
+      }
+      .iconContainer {
+          flex-direction: column;
+          width: 100%;
+      }
+      .iconn {
+        width: 100%;
+      }
+
+      .iconn img{
+        width: 5%;
+      }
+  }
